@@ -340,20 +340,6 @@ p {
   }
 }
 
-@keyframes heartRise {
-  0% {
-    opacity: 0;
-    transform: translateY(0) rotate(45deg);
-  }
-  20% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-95dvh) rotate(45deg) scale(0.6);
-  }
-}
-
 @keyframes heartRiseLoop {
   0% {
     opacity: 0;
