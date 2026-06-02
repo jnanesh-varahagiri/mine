@@ -1,59 +1,47 @@
-# Dating
+# Cinematic Proposal App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.13.
+A cinematic, few-click web proposal app built with Angular. It walks your partner through memories, then reveals a dramatic final love message.
 
-## Development server
-
-To start a local development server, run:
+## Run locally
 
 ```bash
-ng serve
+npm install
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open `http://localhost:4200/`.
 
-## Code scaffolding
+## Personalize your proposal
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+All core text and flow content lives in `src/app/app.ts` under `proposalConfig`.
+
+Update these fields:
+
+- `yourName` and `partnerName`
+- `openingLine`
+- `finalTitle`, `finalMessage`, and `finalQuestion`
+- `heartbeatPrompts` (short pre-final lines)
+
+## Add your own photos
+
+1. Put your images in `src/assets/` (for example: `memory-1.jpg`, `memory-2.jpg`, `memory-3.jpg`).
+2. In `src/app/app.ts`, update each `gallery[].src` path to your real files.
+3. Replace `gallery[].caption` and `gallery[].alt` with your own text.
+
+Current placeholders:
+
+- `src/assets/memory-1.svg`
+- `src/assets/memory-2.svg`
+- `src/assets/memory-3.svg`
+
+## Build and test
 
 ```bash
-ng generate component component-name
+npm run build
+npm test
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Deploy options
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Netlify**: connect the repo, build command `npm run build`, publish directory `dist/dating/browser`.
+- **GitHub Pages**: build the app and deploy the generated `dist/dating/browser` static files.

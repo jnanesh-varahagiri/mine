@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Romantic memory three">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#170d27" />
+      <stop offset="1" stop-color="#090613" />
+    </linearGradient>
+    <linearGradient id="line3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7a5d8" />
+      <stop offset="1" stop-color="#9f8bff" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg3)" />
+  <path d="M70 430 C220 330, 370 330, 730 110" stroke="url(#line3)" stroke-width="8" fill="none" stroke-linecap="round" />
+  <circle cx="70" cy="430" r="16" fill="#ff9dd7" />
+  <circle cx="730" cy="110" r="16" fill="#aa93ff" />
+  <path d="M250 250 C250 205, 304 190, 340 235 C376 190, 430 205, 430 250 C430 286, 394 314, 340 360 C286 314, 250 286, 250 250Z" fill="#ffa5d8" />
+  <text x="90" y="110" fill="#fff0fa" font-family="Arial, sans-serif" font-size="34">From then to forever,</text>
+  <text x="90" y="148" fill="#fbdaf0" font-family="Arial, sans-serif" font-size="34">I choose this path with you.</text>
+</svg>

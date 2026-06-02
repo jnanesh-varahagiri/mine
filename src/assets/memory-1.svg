@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Romantic memory one">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f163b" />
+      <stop offset="1" stop-color="#160a1d" />
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8fd2" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#b983ff" stop-opacity="0.88" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg1)" />
+  <circle cx="660" cy="110" r="90" fill="#ff78be" fill-opacity="0.3" />
+  <path d="M0 440 C140 370, 300 495, 450 430 C590 370, 720 450, 800 410 L800 520 L0 520Z" fill="url(#wave1)" />
+  <text x="52" y="100" fill="#fff2fb" font-family="Arial, sans-serif" font-size="42">A quiet evening with you</text>
+  <text x="52" y="150" fill="#fdd8ef" font-family="Arial, sans-serif" font-size="24">made time stand still.</text>
+</svg>
